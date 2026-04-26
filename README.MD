@@ -1,7 +1,7 @@
 ```markdown
     # climate-challenge-weeko
 
-    This repository contains the solution for the 10 Academy Week 0 Challenge: Artificial Intelligence Mastery with African Climate Trend Analysis.
+   This repository contains the solution for the 10 Academy Week 0 Challenge: Artificial Intelligence Mastery with African Climate Trend Analysis. This initial setup is for the challenge running from 22 Apr - 28 Apr 2026.
 
     ## Project Setup and Environment Reproduction
 
