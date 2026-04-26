@@ -1,0 +1,18 @@
+# Python environment
+            .venv/
+            __pycache__/
+            *.pyc
+            .ipynb_checkpoints/
+
+            # Data files (do NOT commit these to GitHub)
+            data/
+            *.csv
+            *.xls
+            *.xlsx
+
+            # Streamlit local temp files
+            .streamlit/
+
+            # OS-specific files
+            .DS_Store
+            Thumbs.db
