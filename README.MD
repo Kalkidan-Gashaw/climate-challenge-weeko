@@ -43,28 +43,29 @@
         ```
         You should see the Python version associated with your virtual environment.
 
+    ## Key Results
+
+    - Cleaned climate datasets are available for Ethiopia, Kenya, Nigeria, Sudan, and Tanzania in `data/`.
+    - Per-country notebooks document data cleaning, missing-value inspection, outlier handling, time-series trends, and correlation insights.
+    - `notebooks/compare_countries.ipynb` provides a cross-country comparison of temperature and precipitation patterns.
+    - The analysis highlights seasonal climate behavior and supports climate vulnerability perspectives in East Africa.
+
     ## Folder Structure
 
-    The recommended folder structure for this project is:
+    The repository currently includes the following key directories and files:
 
     ```
     .
-    ├── .github/
-    │   └── workflows/
-    │       └── ci.yml             # GitHub Actions workflow for CI checks
-    ├── .gitignore                 # Specifies files/folders to ignore from Git
+    ├── data/                      # Cleaned and raw climate datasets
+    ├── notebooks/                 # Jupyter notebooks for EDA and climate analysis
+    │   ├── compare_countries.ipynb
+    │   ├── ethiopia_eda.ipynb
+    │   ├── kenya_eda.ipynb
+    │   ├── nigeria_eda.ipynb
+    │   ├── sudan_eda.ipynb
+    │   └── tanzania_eda.ipynb
     ├── requirements.txt           # Python dependencies
-    ├── README.md                  # Project overview and setup instructions
-    ├── src/                       # Source code for scripts/modules
-    │   └── __init__.py
-    ├── notebooks/                 # Jupyter notebooks for EDA and analysis
-    │   ├── __init__.py
-    │   └── README.md              # Optional: description for notebooks
-    ├── tests/                     # Unit tests for source code
-    │   └── __init__.py
-    └── scripts/                   # Utility scripts (e.g., data processing)
-    ```
-    ```
+    ├── README.MD                  # Project overview and setup instructions
     ```
 
     ## GitHub Actions (CI/CD)
